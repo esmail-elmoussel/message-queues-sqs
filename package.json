@@ -15,6 +15,7 @@
     "typescript": "^5.0.3"
   },
   "dependencies": {
-    "aws-sdk": "^2.1500.0"
+    "aws-sdk": "^2.1500.0",
+    "bullmq": "^5.1.1"
   }
 }
