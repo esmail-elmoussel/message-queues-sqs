@@ -1,4 +1,4 @@
-import { SQS } from "./abstract-sqs";
+import { SQS } from "../integrations/sqs.integration";
 
 export class StringQueue extends SQS<string> {
   constructor() {

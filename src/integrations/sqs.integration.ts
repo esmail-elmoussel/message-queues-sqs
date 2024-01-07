@@ -1,4 +1,4 @@
-import { PushOptions, Queue } from "./abstract-queue";
+import { PushOptions, Queue } from "../abstract-queue";
 import AWS from "aws-sdk";
 
 export abstract class SQS<T> implements Queue<T> {

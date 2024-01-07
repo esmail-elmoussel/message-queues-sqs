@@ -1,4 +1,4 @@
-import { NumberQueue } from "./queues/number.queue";
+import { NumberQueue } from "../queues/number.queue";
 
 const numberQueue = new NumberQueue();
 

@@ -1,4 +1,4 @@
-import { StringQueue } from "./queues/string.queue";
+import { StringQueue } from "../queues/string.queue";
 
 const stringQueue = new StringQueue();
 
