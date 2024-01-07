@@ -9,13 +9,17 @@
     "nodemon": "nodemon"
   },
   "devDependencies": {
+    "@types/express": "^4.17.21",
     "@types/node": "^20.10.0",
     "nodemon": "^2.0.22",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.3"
   },
   "dependencies": {
+    "@bull-board/express": "^5.11.0",
+    "@bull-board/ui": "^5.11.0",
     "aws-sdk": "^2.1500.0",
-    "bullmq": "^5.1.1"
+    "bullmq": "^5.1.1",
+    "express": "^4.18.2"
   }
 }

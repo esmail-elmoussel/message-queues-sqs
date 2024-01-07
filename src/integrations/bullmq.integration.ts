@@ -9,7 +9,7 @@ import {
 import { PushOptions, Queue } from "../abstract-queue";
 
 export abstract class BullMQ<T> implements Queue<T> {
-  private queue: BullQueue;
+  queue: BullQueue;
   private queueName: string;
   private worker: Worker;
   private processMessage?: (message: T) => void | Promise<void> | void;
